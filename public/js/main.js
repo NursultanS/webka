@@ -60,8 +60,7 @@ jQuery(document).ready(function($){
     $(".navbar-nav li a").click(function(){
         $(".navbar-collapse").removeClass('in');
     });    
-    
-    // jQuery Scroll effect
+
     $('.navbar-nav li a, .scroll-to-up').bind('click', function(event) {
         var $anchor = $(this);
         var headerH = $('.header-area').outerHeight();
