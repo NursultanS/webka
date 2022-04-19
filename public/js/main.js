@@ -16,8 +16,7 @@ jQuery(document).ready(function($){
                 items:5,
             }
         }
-    });  
-    
+    });
     $('.related-products-carousel').owlCarousel({
         loop:true,
         nav:true,
